@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "//example.org"
+baseURL = "https://www.hmknudson.com/"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Heather Knudson"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -15,12 +15,12 @@ copyright = "&copy;2018 Heather Knudson"
 
   # Metadata for search engines and social sharing
   author = "Heather Knudson"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  description = "Research. Evaluation. Collections Care. Heather Knudson is a Museology MA student at the University of Washington Seattle."
   shareImage = "images/social.jpg"
   twitterHandle = "onepagelove"
 
   # Favicon
-  favicon = "favicon.ico"
+  favicon = "/favicon.ico"
 
   # Section - Visual
   [params.visual]
@@ -46,16 +46,8 @@ copyright = "&copy;2018 Heather Knudson"
       heading = "Connect"
 
       [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
-
-      [[params.links.list1.link]]
         text = "Email"
-        url = "#"
-
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+        url = "mailto:knudsh@uw.edu?subject=Hello"
 
   # Links List #2
   [[params.links]]
@@ -63,33 +55,25 @@ copyright = "&copy;2018 Heather Knudson"
       heading = "Social"
 
       [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/heatherknudson/"
 
-      [[params.links.list2.link]]
-        text = "Instagram"
-        url = "#"
-
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
-
-  # Links List #3
+  #Links List #3
   [[params.links]]
     [params.links.list3]
       heading = "Network"
 
       [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
+        text = "Resume"
+        url = "/HMKnudson_Resume.pdf"
 
-      [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
+      # [[params.links.list3.link]]
+      #   text = "Link Two"
+      #   url = "#"
 
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+      # [[params.links.list3.link]]
+      #   text = "Link Three"
+      #   url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
