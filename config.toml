@@ -16,8 +16,8 @@ copyright = "&copy;2018 Heather Knudson"
   # Metadata for search engines and social sharing
   author = "Heather Knudson"
   description = "Research. Evaluation. Collections Care. Heather Knudson is a Museology MA student at the University of Washington Seattle."
-  shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  shareImage = "/social.png"
+  #twitterHandle = "onepagelove"
 
   # Favicon
   favicon = "/favicon.ico"
